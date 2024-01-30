@@ -7,6 +7,10 @@ let prezzo = document.querySelector("#result")
 let offerta = document.querySelector("#offer")
 let identità = document.querySelector("#identity")
 
+age.className="red"
+userId.className="red"
+distance.className="red"
+
  button.addEventListener("click",
  function(){
     let fullPrice = distance.value*0.21
