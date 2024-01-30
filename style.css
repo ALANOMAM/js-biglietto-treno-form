@@ -6,10 +6,9 @@
 
 body{
     background-color: rgba(185, 20, 80, 1);
+    font-family: sans-serif;
 }
-.schema *{
-    border: 1px red solid;
-}
+
 /* inizio form*/
 
 .red{
@@ -18,33 +17,32 @@ body{
 }
 
 
-
 .form{
-    margin: 40px;
-    border:1px black solid ;
     width: 700px;
     height: 200px;
+    border:1px black solid ;
+    margin: 40px;
     display: flex;
     flex-direction: column;
     gap:20px;
     background-color:whitesmoke ;
 }
 .subForm{
+    padding: 30px;
     display: flex;
     justify-content:space-between;
-    padding: 30px;
 }
 
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
-
     gap: 10px;
 }
 
 button{
-    margin-left: 300px;
+    padding: 5px;
+    margin-left: 300px;  
 }
 
 
@@ -56,21 +54,21 @@ button{
 .biglietto{
     width: 700px;
     height: 250px;
-    border: 1px solid black;
     padding: 10px;
+    border: 1px solid black;
     margin: 40px;
     background-color: whitesmoke;
 }
 
 .subBiglietto{
-    display: flex;
     height:200px;
+    display: flex;
 }
 
 .subBiglietto div{
+    padding: 20px;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

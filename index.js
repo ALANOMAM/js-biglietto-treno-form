@@ -10,6 +10,7 @@ let identità = document.querySelector("#identity")
 age.className="red"
 userId.className="red"
 distance.className="red"
+button.className="red"
 
  button.addEventListener("click",
  function(){
